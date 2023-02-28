@@ -571,7 +571,7 @@
     }
 
     .navbar-logo {
-      width: 10rem;
+      width: 13rem;
       height: 7rem;
     }
 
@@ -721,8 +721,48 @@
 
     .card {
       border-radius: 25px;
-      background-color: #FFF;
-      border: 4px solid black;
+      border: none;
+      margin-top: 10px;
+    }
+
+    .engenis {
+      column-count: 6;
+    }
+
+    @media (max-width:0px) {
+      .engenis {
+        column-count: 1;
+      }
+    }
+
+    @media (max-width:520px) {
+      .engenis {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width:650px) {
+      .engenis {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width:750px) {
+      .engenis {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width:850px) {
+      .engenis {
+        column-count: 3;
+      }
+    }
+
+    @media (max-width:950px) {
+      .engenis {
+        column-count: 3;
+      }
     }
 
     .image-content,
@@ -741,46 +781,30 @@
 
     .card-image {
       position: relative;
-      height: 150px;
-      width: 150px;
-      background: black;
-      padding: 5px;
+      height: 10rem;
+      width: 10rem;
       border-radius: 10px;
+
     }
 
     .card-image .card-img {
       height: 100%;
       width: 100%;
       object-fit: cover;
+
     }
 
     .name {
       font-size: 18px;
       font-weight: 500;
-      color: #333;
     }
 
     .description {
       font-size: 14px;
-      color: #707070;
       text-align: center;
     }
 
-    .button {
-      border: none;
-      font-size: 16px;
-      color: #FFF;
-      padding: 8px 16px;
-      background-color: #4070F4;
-      border-radius: 6px;
-      margin: 14px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
 
-    .button:hover {
-      background: #265DF2;
-    }
 
     .swiper-navBtn {
       color: #6E93f7;
@@ -1268,18 +1292,18 @@
           <nav class="site-navigation text-right ml-auto " role="navigation">
 
             <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-              <li><a href="#about-section" class="nav-link">Hakkımızda</a></li>
-              <li><a href="#product-section" class="nav-link">Ürünler</a></li>
+              <li><a href="./hakkimizda.html" class="nav-link">Hakkımızda</a></li>
+              <li><a href="#" class="nav-link">Ürünler</a></li>
               <li><a href="./projeler.html" class="nav-link">Projeler</a></li>
-              <li><a href="#contact-section" class="nav-link">İletişim</a></li>
+              <li><a href="./iletisim.html" class="nav-link">İletişim</a></li>
 
               <li><a href="https://www.instagram.com/artemetdekor/" class="nav-link"><i
                     class="fa-brands fa-instagram"></i></a></li>
               <li><a href="https://www.facebook.com/artemet.dekor/" class="nav-link"><i
                     class="fa-brands fa-facebook"></i></a></li>
-              <!-- <li><a href="#youtube-section" class="nav-link"><i class="fa-brands fa-youtube"></i></a></li>-->
+              <li><a href="#youtube-section" class="nav-link"><i class="fa-brands fa-youtube"></i></a></li>
               <!-- <li><a href="#twitter-section" class="nav-link"><i class="fa-brands fa-twitter"></i></a></li>-->
-              <li><a href="https://tr.pinterest.com/artemetdekor/" class="nav-link"><i
+              <li><a href="https://tr.pinterest.com/artemetdekor/_created/" class="nav-link"><i
                     class="fa-brands fa-pinterest"></i></a></li>
             </ul>
           </nav>
@@ -1341,198 +1365,187 @@
   <!-- Initialize Swiper -->
 
   <!--Circle-->
-  <div class="slide-container swiper">
-    <div class="slide-content">
-      <div class="card-wrapper swiper-wrapper">
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#sandalye">
-              <div class="card-image">
-                <img src="img/duvar-aksesuar-3-1.png" alt="" class="card-img">
-              </div>
+  <div class="engenis">
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#sandalye">
+          <div class="card-image">
+            <img src="img/masas-2-2.png" alt="" class="card-img">
           </div>
+      </div>
 
-          <div class="card-content">
-            <h2 class="name">Masa</h2>
-
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="./koltuk-takimi.html">
-              <div class="card-image">
-                <!--<img src="img/img2.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Sandalye</h2>
-
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#berjer">
-              <div class="card-image">
-                <!--<img src="img/img3.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Sehpa</h2>
-
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#yemek-masasi">
-              <div class="card-image">
-                <img src="img/masas-2-2.png" alt="" class="card-img">
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Dresuar</h2>
-          </div>
-          </a>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#dresuar">
-              <div class="card-image">
-                <!--<img src="img/img5.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Ayna</h2>
-          </div>
-          </a>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#sehpa">
-              <div class="card-image">
-                <!-- <img src="img/img6.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Konsol-TV Ünitesi</h2>
-          </div>
-          </a>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#ayna">
-              <div class="card-image">
-                <!-- <img src="img/img7.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Berjer</h2>
-          </div>
-          </a>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#bench">
-              <div class="card-image">
-                <!--  <img src="img/img8.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Bench-Puf</h2>
-          </div>
-          </a>
-        </div>
-
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#banyo">
-              <div class="card-image">
-                <!--<img src="img/img9.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Seperatör</h2>
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#aydinlatma">
-              <div class="card-image">
-                <!--<img src="img/img10.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Aydınlatma</h2>
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#aksesuarlar">
-              <div class="card-image">
-                <!-- <img src="img/duvar-aksesuar-3-1.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Kitaplık</h2>
-          </div>
-          </a>
-        </div>
-        <div class="card swiper-slide">
-          <div class="image-content">
-            <span class="overlay"></span>
-            <a href="#orta-sehpa">
-              <div class="card-image">
-                <!-- <img src="img/img12.png" alt="" class="card-img">-->
-              </div>
-          </div>
-
-          <div class="card-content">
-            <h2 class="name">Aksesuar</h2>
-          </div>
-          </a>
-        </div>
+      <div class="card-content">
+        <h2 class="name">Masa</h2>
 
       </div>
-      <div class="swiper-pagination" style="opacity: 1;
-      height: 16px;
-      width: 24px;
-      border: 2px solid black;
-      background-color: black;
-      border-radius: 10px;
-      "></div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="./koltuk-takimi.html">
+          <div class="card-image">
+            <!--<img src="img/img2.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Sandalye</h2>
+
+      </div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#berjer">
+          <div class="card-image">
+            <!--<img src="img/img3.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Sehpa</h2>
+
+      </div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#yemek-masasi">
+          <div class="card-image">
+            <!-- <img src="img/masas-2-2.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Dresuar</h2>
+      </div>
+      </a>
     </div>
 
-  </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#dresuar">
+          <div class="card-image">
+            <!--<img src="img/img5.png" alt="" class="card-img">-->
+          </div>
+      </div>
 
+      <div class="card-content">
+        <h2 class="name">Ayna</h2>
+      </div>
+      </a>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#sehpa">
+          <div class="card-image">
+            <!-- <img src="img/img6.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Konsol-TV Ünitesi</h2>
+      </div>
+      </a>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#ayna">
+          <div class="card-image">
+            <!-- <img src="img/img7.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Berjer</h2>
+      </div>
+      </a>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#bench">
+          <div class="card-image">
+            <!--  <img src="img/img8.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Bench-Puf</h2>
+      </div>
+      </a>
+    </div>
+
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#banyo">
+          <div class="card-image">
+            <!--<img src="img/img9.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Seperatör</h2>
+      </div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#aydinlatma">
+          <div class="card-image">
+            <!--<img src="img/img10.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Aydınlatma</h2>
+      </div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#aksesuarlar">
+          <div class="card-image">
+            <!-- <img src="img/duvar-aksesuar-3-1.png" alt="" class="card-img">-->
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Kitaplık</h2>
+      </div>
+      </a>
+    </div>
+    <div class="card swiper-slide">
+      <div class="image-content">
+        <span class="overlay"></span>
+        <a href="#orta-sehpa">
+          <div class="card-image">
+            <img src="img/duvar-aksesuar-3-1.png" alt="" class="card-img">
+          </div>
+      </div>
+
+      <div class="card-content">
+        <h2 class="name">Aksesuar</h2>
+      </div>
+      </a>
+    </div>
+
+
+
+  </div>
   </div>
   <!--Third Swiper-->
   <!--Şimdilik Kapatılıyor-->
@@ -1682,7 +1695,7 @@
           <div class="col-sm-4 col-md-3 item">
             <h3>KURUMSAL</h3>
             <ul>
-              <li><a href="#">Hakkımızda</a></li>
+              <li><a href="./hakkimizda.html">Hakkımızda</a></li>
             </ul>
           </div>
           <div class="col-sm-4 col-md-3 item">
@@ -1710,18 +1723,18 @@
           <div class="col-sm-4 col-md-3 item">
             <h3>İLETİŞİM BİLGİSİ</h3>
             <ul>
-              <li><a href="#">Telefon : +90 (530) 554 39 24</a></li>
-              <li><a href="#">Telefon : +90 (552) 398 94 52</a></li>
-              <li><a href="#">E-Posta: info@artemetdekor.com</a></li>
-              <li><a href="">Adres: Ferhatpaşa-Ataşehir/İSTANBUL</a></li>
+              <li><a href="./iletisim.html">Telefon : +90 (530) 554 39 24</a></li>
+              <li><a href="./iletisim.html">Telefon : +90 (552) 398 94 52</a></li>
+              <li><a href="./iletisim.html">E-Posta: info@artemetdekor.com</a></li>
+              <li><a href="./iletisim.html">Adres: Ferhatpaşa-Ataşehir/İSTANBUL</a></li>
             </ul>
           </div>
           <div class="col-lg-3 item social">
             <a href="https://www.instagram.com/artemetdekor/"> <i class="fa-brands fa-instagram"></i></a>
             <a href="https://www.facebook.com/artemet.dekor/"><i class="fa-brands fa-facebook"></i></a>
-            <!--<a href="#youtube-section"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#twitter-section"><i class="fa-brands fa-twitter"></i></a>-->
-            <a href="https://tr.pinterest.com/artemetdekor/"><i class="fa-brands fa-pinterest"></i></a>
+            <a href="#youtube-section"><i class="fa-brands fa-youtube"></i></a>
+            <!--<a href="#twitter-section"><i class="fa-brands fa-twitter"></i></a>-->
+            <a href="https://tr.pinterest.com/artemetdekor/_created/"><i class="fa-brands fa-pinterest"></i></a>
             <p class="copyright">Artemet Dekor © 2023</p>
           </div>
         </div>
@@ -1733,7 +1746,7 @@
 
 
   <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/scriptt.js"></script>
+  <!-- <script src="js/scriptt.js"></script>-->
   <script src="js/script.js"></script>
   <script src="js/app.js"></script>
   <script src="js/jquery-3.3.1.min.js"></script>

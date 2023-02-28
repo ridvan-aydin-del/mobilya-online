@@ -21,15 +21,12 @@
     <link rel="icon" href="img/title-logo.png" type="image/x-icon">
 
     <!-- Style -->
-    <link rel="stylesheet" href="css/koltuk-takimi-1.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/koltuk-takimi-1.css">
-
     <script src="https://kit.fontawesome.com/4db23721e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://kit.fontawesome.com/4db23721e3.css" crossorigin="anonymous">
-
     <title>Artemet Dekor</title>
-    <style type=text/css>
+    <style type="text/css">
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
         body {
@@ -580,58 +577,7 @@
             color: white;
         }
 
-        /*SLIDER*/
-        .wrapper,
-        .slide {
-            position: relative;
-            width: 100%;
-            height: 100%;
-        }
-
-        .slide {
-            overflow: hidden;
-            height: 65rem;
-        }
-
-        .slide::before {
-            content: "";
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            z-index: 10;
-        }
-
-        .slide .image {
-            height: 100%;
-            width: 100%;
-        }
-
-
-        /* swiper button css */
-        .nav-btn {
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.4);
-        }
-
-        .nav-btn:hover {
-            background: rgba(255, 255, 255, 0.5);
-        }
-
-        .swiper-button-next {
-            right: 50px;
-        }
-
-        .swiper-button-prev {
-            left: 50px;
-        }
-
-        .nav-btn::before,
-        .nav-btn::after {
-            font-size: 25px;
-            color: #fff;
-        }
+        /*NAVBAR*/
 
         .swiper-pagination-bullet {
             opacity: 1;
@@ -647,66 +593,18 @@
         }
 
         @media screen and (max-width: 768px) {
-            .nav-btn {
-                visibility: hidden;
-            }
-
-            .slide .image {
-                height: 15rem;
-                width: 100%;
-            }
-
-            .slide {
-                height: 100%;
-            }
-
             .swiper-pagination-bullet {
                 visibility: visible;
             }
         }
 
         @media (max-width:1045px) {
-            .nav-btn {
-                visibility: hidden;
-            }
-
-            .slide .image {
-                height: 17rem;
-                width: 100%;
-            }
-
-            .slide {
-                height: 100%;
-            }
-
             .swiper-pagination-bullet {
                 visibility: visible;
             }
         }
 
-
-        @media (max-width:1245px) {
-            .nav-btn {
-                visibility: hidden;
-            }
-
-            .slide .image {
-                height: 18rem;
-                width: 100%;
-            }
-
-            .slide {
-                height: 100%;
-            }
-
-            .swiper-pagination-bullet {
-                visibility: visible;
-            }
-        }
-
-
-        /*UYGUNA KİRALA*/
-
+        /*uyguna-kirala*/
         .slide-container {
             width: 100%;
             padding: 40px 0;
@@ -808,347 +706,6 @@
         }
 
 
-        /*Third Swiper*/
-        @media screen and (max-width: 1045px) {
-            .image-box {
-                height: 10px;
-            }
-
-            .cardd .image-box img {
-                height: 100px;
-            }
-
-        }
-
-        .slide-containerr {
-            margin: 0 30px;
-            overflow: hidden;
-        }
-
-        .cardd {
-            background: #fff;
-            border-radius: 8px;
-        }
-
-        .cardd .image-box {
-            height: max-content;
-        }
-
-        .cardd .image-box img {
-            width: 100%;
-            height: 400px;
-            border-radius: 8px 8px 0 0;
-        }
-
-        .cardd .profile-details {
-            display: flex;
-            align-items: center;
-            column-gap: 12px;
-            padding: 15px;
-        }
-
-        .cardd .profile-details img {
-            height: 40px;
-            width: 40px;
-            border-radius: 50%;
-        }
-
-        .profile-details .namee {
-            font-size: 15px;
-            font-weight: 500;
-        }
-
-        .profile-details .job {
-            font-size: 12px;
-            font-weight: 500;
-            color: #4d4d4d;
-        }
-
-        .swiper-navBtn {
-            height: 50px;
-            width: 50px;
-            border-radius: 50%;
-            background: rgba(221, 221, 221, 0.5);
-        }
-
-        .swiper-navBtn:hover {
-            background: rgba(221, 221, 221, 0.7);
-        }
-
-        .swiper-button-nextt {
-            right: 50px;
-        }
-
-        .swiper-button-prevv {
-            left: 50px;
-        }
-
-        .swiper-navBtn::before,
-        .swiper-navBtn::after {
-            font-size: 25px;
-            color: #6b6a6a;
-        }
-
-        .third {
-            padding-top: 50px;
-            padding-bottom: 50px;
-            min-height: 100%;
-            width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: #efefef;
-            font-family: "Poppins", sans-serif;
-        }
-
-        /*UCLUK*/
-        .containerr {
-            max-width: 1500px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 20px;
-        }
-
-        .containerr .box {
-            width: calc(33% - 10px);
-            background: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 5px;
-        }
-
-        .containerr .box .image {
-            height: 600px;
-            width: 350px;
-            padding: 3px;
-        }
-
-        .containerr .box .image-bottom {
-            margin: 10px 0;
-            height: 600px;
-            width: 350px;
-            padding: 3px;
-            margin-top: 80px;
-        }
-
-        .box .image img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            border: 2px solid #fff;
-        }
-
-        .box .image-bottom img {
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-            border: 2px solid #fff;
-        }
-
-        .box .ucluk {
-            color: black;
-            font-size: 18px;
-            font-weight: 600;
-        }
-
-        @media (max-width:1045px) {
-            .containerr .box {
-                width: calc(50% - 10px);
-                margin-bottom: 20px;
-            }
-        }
-
-        @media (max-width:710px) {
-            .containerr .box {
-                width: 100%;
-            }
-        }
-
-        .ucluk-main {
-            display: grid;
-            height: 100%;
-            place-items: center;
-        }
-
-        /*ALT UCLUK*/
-        .containerrr {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .alt-uc {
-            background-color: #EFEFEF;
-            width: 100%;
-            padding-top: 50px;
-            padding-bottom: 50px;
-        }
-
-        .yemek-oda {
-            width: 100%;
-            margin-top: 10px;
-        }
-
-        .kuslu-1-button {
-            position: absolute;
-            top: 95%;
-            left: 82%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            background-color: rgb(133, 125, 125);
-            color: white;
-            font-size: 16px;
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: 0.5s;
-        }
-
-        .kuslu-1-button:hover {
-            background-color: rgb(153, 144, 144);
-        }
-
-
-        .yemek {
-            position: absolute;
-            top: 35%;
-            left: 45%;
-            color: #FFF;
-            font-family: 'Open Sans';
-        }
-
-        .koltuk-takimi {
-            position: absolute;
-            top: 85%;
-            left: 38%;
-            color: #FFF;
-            font-family: 'Open Sans';
-        }
-
-        .yatak-odasi {
-            position: absolute;
-            top: 85%;
-            left: 46%;
-            color: #FFF;
-            font-family: 'Open Sans';
-        }
-
-        .projeler {
-            position: absolute;
-            top: 35%;
-            left: 58%;
-            color: #FFF;
-            font-family: 'Open Sans';
-        }
-
-        .kuslu-2-button {
-            position: absolute;
-            top: 45%;
-            left: 82%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            background-color: rgb(133, 125, 125);
-            color: white;
-            font-size: 16px;
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-            transition: 0.5s;
-        }
-
-        .kuslu-2-button:hover {
-            background-color: rgb(153, 144, 144);
-        }
-
-
-
-        .yemek-oda-img {
-            max-width: 25rem;
-            width: 30rem;
-            height: 20rem;
-        }
-
-
-        .yemek-oda {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        @media (max-width:1045px) {
-
-
-
-            .yemek-oda-img {
-                width: 380px;
-            }
-
-            .yemek-oda {
-                margin-top: 10px;
-            }
-
-            .kuslu-2-button {
-                left: 80%;
-            }
-
-            .yemek {
-                top: 40%;
-                left: 33%;
-            }
-
-            .kuslu-1-button {
-                left: 80%;
-                top: 90%;
-            }
-        }
-
-        @media (max-width:1245px) {
-            .yemek-oda-img {
-                width: 100%;
-            }
-        }
-
-        @media (max-width:945px) {
-
-            .yemek-oda-img {
-                width: 100%;
-            }
-
-        }
-
-        @media (max-width:768px) {
-
-            .yemek-oda-img {
-                width: 380px;
-            }
-
-            .yemek-oda {
-                margin-top: 10px;
-            }
-
-            .kuslu-2-button {
-                left: 80%;
-            }
-
-            .yemek {
-                top: 40%;
-                left: 33%;
-            }
-
-            .kuslu-1-button {
-                left: 80%;
-                top: 90%;
-            }
-
-        }
 
         /*FOOTER*/
         .footer-clean {
@@ -1236,6 +793,18 @@
             font-size: 13px;
             opacity: 0.6;
         }
+
+        .hakkimizda {
+            margin-top: 50px;
+            margin-bottom: 100px;
+        }
+
+        /*Proje Başlık*/
+        .proje-h1 {
+            text-align: center;
+            color: #333;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
     </style>
 </head>
 
@@ -1269,7 +838,7 @@
                         <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                             <li><a href="#about-section" class="nav-link">Hakkımızda</a></li>
                             <li><a href="#product-section" class="nav-link">Ürünler</a></li>
-                            <li><a href="./projeler.html" class="nav-link">Projeler</a></li>
+                            <li><a href="#project-section" class="nav-link">Projeler</a></li>
                             <li><a href="#contact-section" class="nav-link">İletişim</a></li>
 
                             <li><a href="https://www.instagram.com/artemetdekor/" class="nav-link"><i
@@ -1488,41 +1057,55 @@
     </div>
 
     </div>
-    <!--ÜRÜN-->
+    <!--ÜRÜNLER-->
+
+    <img src="img/logo.png" alt="" class="container" style="width: 30rem;">
+
+    <h1 class="proje-h1">Hakkımızda</h1>
+
+    <h5 class="container hakkimizda">
+
+        Artemet Dekor, metal, cam, ahşap ve mermer türevlerinden oluşan ev mobilyaları, ofis mobilyaları, cafe bar
+        mobilyaları, bahçe mobilyaları ve otel mobilya dekorasyonları alanında tasarım ve imalat yapmaktadır.
+        <br><br>
+        Metal mobilya sektöründe 10 yılı aşkın tecrübesiyle modern, şık ve kaliteli ürünleri istediğiniz renk, malzeme
+        ve ölçüde hizmetinize sunmaktadır. Özel projelerinizin çizimleri müşterilerimizin isteği ve onayı doğrultusunda
+        en küçük detaylar düşünülerek özenle hazırlanmaktadır.
+        <br><br>
+        Her türlü metal mobilya ürünü ve proje ihtiyacınız için bizimle iletişime geçebilirsiniz.
+        <br><br><br><br>
+        <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
 
 
-    <div class="main-wrapper">
-        <div class="container">
-            <div class="product-div">
-                <div class="product-div-left">
-                    <div class="img-container">
-                        <img src="img/yemek-odasi-5.png" alt="yemek-odasi-5">
-                    </div>
-                    <div class="hover-container">
-                        <div>
-                            <img src="img/yemek-odasi-5.png">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>İLETİŞİM BİLGİSİ</h3>
+                            <ul>
+                                <li><a href="#">Telefon : +90 (530) 554 39 24</a></li>
+                                <li><a href="#">Telefon : +90 (552) 398 94 52</a></li>
+                                <li><a href="#">E-Posta: info@artemetdekor.com</a></li>
+                                <li><a href="">Adres: Ferhatpaşa-Ataşehir/İSTANBUL</a></li>
+                            </ul>
                         </div>
-                        <!--2. ÜRÜN FOTOSU İÇİN AÇILACAK YER-->
-                        <!--
-                        <div><img src="img/yemek-odasi-1-2.png"></div>
-                        <div><img src="img/yemek-odasi-1-2.png"></div>
-                        <div><img src="img/yemek-odasi-1-2.png"></div>
-                        -->
-                        <!--2. ÜRÜN FOTOSU İÇİN AÇILACAK YER-->
+                        <div class="col-lg-3 item social">
+                            <a href="https://www.instagram.com/artemetdekor/"> <i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/artemet.dekor/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/@artemetdekor/featured"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                            <!--<a href="#twitter-section"><i class="fa-brands fa-twitter"></i></a>-->
+                            <a href="https://tr.pinterest.com/artemetdekor/"><i class="fa-brands fa-pinterest"></i></a>
+
+                        </div>
                     </div>
                 </div>
-                <div class="product-div-right">
-                    <span class="product-name" style="text-align: center;">Yemek-Odası-5</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae architecto explicabo at fuga.
-                        Beatae, atque
-                        possimus quod accusantium voluptatum commodi maiores placeat recusandae dolores mollitia totam
-                        nisi
-                        explicabo sunt repudiandae.</p>
-                </div>
-            </div>
+            </footer>
         </div>
-    </div>
 
+
+    </h5>
 
     <!--FOOTER-->
     <div class="footer-clean">
@@ -1569,9 +1152,8 @@
                     <div class="col-lg-3 item social">
                         <a href="https://www.instagram.com/artemetdekor/"> <i class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.facebook.com/artemet.dekor/"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.youtube.com/@artemetdekor/featured"><i
-                                class="fa-brands fa-youtube"></i></a>
-                        <!-- <a href="#twitter-section"><i class="fa-brands fa-twitter"></i></a>-->
+                        <!--<a href="#youtube-section"><i class="fa-brands fa-youtube"></i></a>
+              <a href="#twitter-section"><i class="fa-brands fa-twitter"></i></a>-->
                         <a href="https://tr.pinterest.com/artemetdekor/"><i class="fa-brands fa-pinterest"></i></a>
                         <p class="copyright">Artemet Dekor © 2023</p>
                     </div>
@@ -1590,7 +1172,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/product-details.js"></script>
 </body>
 
 </html>
